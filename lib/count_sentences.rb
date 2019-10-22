@@ -15,12 +15,10 @@ class String
   end
 
   def count_sentences
-    # string_array = []
-    stripped = self.scan(/[self.question?|self.sentence?|self.exclamation?]/)
-    binding.pry
-    stripped.count
-    # string_array << self
-    # string_array.count
+    new_string = self.tr(","," ")
+    new_string = self.squeeze(".")
+    new_string = new_string.squeeze("!")
+    new_string.split.count
 
   end
 end
