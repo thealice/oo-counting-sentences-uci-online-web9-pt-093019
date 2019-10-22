@@ -15,10 +15,9 @@ class String
   end
 
   def count_sentences
-    string = self.squeeze(”.”)
-    string = string.squeeze(”!”)
-    binding.pry
-    string.split(/[$.|?|!]/).count
+    string_array = []
+    sring_array << self.split
+    string_array.size
 
   end
 end
