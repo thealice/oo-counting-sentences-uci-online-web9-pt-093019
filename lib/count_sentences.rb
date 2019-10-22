@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     string_array = []
-    sring_array << self.split
+    string_array << self.split
     string_array.size
 
   end
