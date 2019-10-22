@@ -19,6 +19,5 @@ class String
     new_string = self.squeeze(".")
     new_string = new_string.squeeze("!")
     new_string.split.count
-
   end
 end
