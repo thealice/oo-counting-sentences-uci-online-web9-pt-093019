@@ -19,7 +19,7 @@ class String
     string_array = []
     self.split(" ")
     string_array << self
-    string_array.size
+    string_array.count
 
   end
 end
