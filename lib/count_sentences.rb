@@ -16,7 +16,8 @@ class String
 
   def count_sentences
     # string_array = []
-    self.split(" ").count
+    stripped = self.scan(/question?|sentence?|exclamation?/)
+    stripped.count
     # string_array << self
     # string_array.count
 
